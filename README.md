@@ -2,6 +2,6 @@
 
 UDF file for ANSYS Fluent
 
-Investigation of the effect of plama actuator on the aerodynamic characteristic around airfoil
+Investigation of the effect of plasma actuator on the aerodynamic characteristic around airfoil
 
 Youtube tutorial: https://youtu.be/SYOjd1j5QGw
