@@ -22,9 +22,9 @@ DEFINE_SOURCE(plasma_source, c, t, dS, eqn) //define macro
 	x = xc[0]; //x as the 1st array of xc
 	y = xc[1]; //y as the 2nd array of xc
 
-	if ((x > 0.034) && (y > 0.035) && (x < 0.073) && (y < 0.053)) //define the plasma region
+	if ((x > 0.048285011) && (y > 0.058866676) && (x < 0.14667337) && (y < 0.11919238)) //define the plasma region
 	{
-		source = 55000.0; //the value of plasma source
+		source = 5.0; //the value of plasma source
 		dS[eqn] = 0; //explicit solution
 	}
 	else
